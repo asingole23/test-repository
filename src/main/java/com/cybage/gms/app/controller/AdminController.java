@@ -83,7 +83,7 @@ public class AdminController {
 	//create department
 	@PostMapping("/department/add")
 	public DepartmentDTO addDepartment(@Valid @RequestBody Department department) {
-		return departmentService.addDepartment(department);
+		return      departmentService.addDepartment(department);
 	}
 	
 	
